@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.header .logo {
+  width: 100px;
+  height: auto;
+}
+.header .user-info {
+  display: flex;
+  align-items: center;
+}
+.header .user-info .username {
+  margin-right: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.header .user-info button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header .user-info button:hover {
+  background-color: #0056b3;
+}
+.navbar {
+  margin-top: 20px;
+  margin-bottom: auto;
+}
+.navbar .nav-item {
+  margin: 0 10px;
+}
+.chamados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.chamado {
+  width: 80%;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.efetuado {
+  background-color: #f9c74f;
+}
+.sendo-realizado {
+  background-color: #f9844a;
+}
+.concluido {
+  background-color: #90be6d;
+}
+
+.navbar .chamados-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.navbar .chamados-btn:hover {
+  background-color: #0056b3;
+}
+
+#form-container {
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0f0f0;
+}
+
+#form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+#form-container label {
+  margin-bottom: 5px;
+}
+
+#form-container input,
+#form-container select,
+#form-container textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#form-container input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+#form-container input[type="submit"]:hover {
+  background-color: #0056b3;
+}
